@@ -6,7 +6,7 @@
     <img src="/3.png" width="1000" />
   </div>
   <div class="ct">
-    <p>下图是在编译打包之后，样式出问题了：icon和message错位（.el-message-box_status的postion被覆盖了），并且.el-icon在多个不同的css中重复存在</p>
+    <p>下图是在编译打包之后，样式出问题了：icon和message错位（.el-message-box_status的postion被覆盖了），并且.el-icon在多个不同的cssw文件中重复存在</p>
     <img src="/2.png" width="1000" />
   </div>
   <div class="ct">
