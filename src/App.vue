@@ -4,7 +4,7 @@
   <li>点击view1按钮</li>
   <li>再次点击 open Msgbox，布局样式出现问题</li>
   </ul>
-  <div class="toolbar">
+  <div class="toolbar" v-loading="loading">
     <el-button :icon="Document" @click="router.push('/')">home</el-button>
     <el-button :icon="Document" @click="router.push('/view1')">view 1</el-button>
     <el-button :icon="Document" @click="openMsgBox">open MsgBox</el-button>
@@ -18,9 +18,9 @@
 <script lang="ts" setup>
 import { Document } from "@element-plus/icons-vue";
 import { useRouter } from 'vue-router'
-import 'element-plus/es/components/message-box/style/css'
+// import 'element-plus/es/components/message-box/style/css'
 import { ElMessageBox } from 'element-plus'
-
+const loading = false
 const router = useRouter();
 
 const openMsgBox = () => {
