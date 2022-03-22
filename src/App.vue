@@ -9,6 +9,7 @@
     <el-button :icon="Document" @click="router.push('/view1')">view 1</el-button>
     <el-button :icon="Document" @click="openMsgBox">open MsgBox</el-button>
     <el-button :icon="Document" @click="router.push('/more')">更复杂用例中的截图</el-button>
+    <el-button :icon="Document" @click="router.push('/split-button')">split-button的问题</el-button>
   </div>
   <div class="content">
     <router-view />

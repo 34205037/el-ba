@@ -13,6 +13,10 @@ const routes: RouteRecordRaw[] = [
     path: '/more',
     component: () => import('../views/more.vue'),
   },
+  {
+    path: '/split-button',
+    component: () => import('../views/split-button.vue'),
+  },
 ];
 
 export default routes;
